@@ -23,15 +23,15 @@ Os dados incluem informações como:
 
 - Python
 - Pandas
-- Matplotlib / Seaborn
+- Matplotlib
 - Jupyter Notebook
+- pingouin
 
 ## 📈 Análises Realizadas
 
-- Evolução de gols ao longo do tempo
 - Comparação entre futebol masculino e feminino
-- Distribuição de vitórias, empates e derrotas
-- Países com maior número de partidas
+- Numero de gols
+
 
 ## ▶️ Como Executar
 
