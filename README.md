@@ -84,3 +84,21 @@ git clone https://github.com/dantasjohn98/Hypotesis-testing-with-Men-s-and-Women
 cd football-results-analysis
 pip install pandas matplotlib seaborn jupyter
 jupyter notebook
+
+📁 Repository Structure
+football-results-analysis/
+│
+├── data/
+│   ├── men_results.csv
+│   └── women_results.csv
+│
+├── notebook.ipynb
+├── soccer-pitch.jpg
+├── README.md
+└── LICENSE
+
+👨‍💻 About the Author
+
+Jonathan Dantas
+Data Science & Analytics
+Background in Physics | Strong analytical foundation | Focused on data-driven problem solving
