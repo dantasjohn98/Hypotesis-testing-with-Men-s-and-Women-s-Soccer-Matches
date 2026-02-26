@@ -86,7 +86,7 @@ pip install pandas matplotlib seaborn jupyter
 jupyter notebook
 
 📁 Repository Structure
-football-results-analysis/
+Hypotesis-testing-with-Men-s-and-Women-s-Soccer-Matches/
 │
 ├── data/
 │   ├── men_results.csv
