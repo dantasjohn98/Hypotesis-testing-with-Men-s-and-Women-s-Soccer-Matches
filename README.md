@@ -1,10 +1,9 @@
-# ⚽ International Football Results Analysis  
+# ⚽ Hypotesis-testing-with-Men-s-and-Women-s-Soccer-Matches  
 ### Data Analysis | Exploratory Data Analysis | Comparative Analytics  
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-green)
-![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-purple)
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-yellow)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
@@ -70,19 +69,10 @@ Comparative evaluation of:
 - Match frequency
 - Distribution of results
 
-### 🏆 3. Win/Draw/Loss Distribution
-Identification of dominant teams and match outcome behavior.
-
-### 🌍 4. Tournament Participation Analysis
-Exploration of competition frequency and geographic distribution.
-
----
 
 ## 📊 Example Insights Generated
 
 - Identification of long-term scoring trends.
-- Comparative offensive intensity between datasets.
-- Detection of historically dominant teams.
 - Evolution of participation across tournaments.
 
 ---
@@ -90,7 +80,7 @@ Exploration of competition frequency and geographic distribution.
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/seu-usuario/football-results-analysis.git
+git clone https://github.com/dantasjohn98/Hypotesis-testing-with-Men-s-and-Women-s-Soccer-Matches.git
 cd football-results-analysis
 pip install pandas matplotlib seaborn jupyter
 jupyter notebook
