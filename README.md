@@ -1,54 +1,96 @@
+# ⚽ International Football Results Analysis  
+### Data Analysis | Exploratory Data Analysis | Comparative Analytics  
 
-# ⚽ Hypotesis-testing-with-Men-s-and-Women-s-Soccer-Matches
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-green)
+![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-purple)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-Análise exploratória de dados de resultados internacionais de futebol masculino e feminino.
+---
 
-## 📌 Objetivo
+## 📌 Project Overview
 
-Este projeto tem como objetivo explorar e comparar os resultados históricos de partidas internacionais de futebol, utilizando técnicas de análise de dados com Python. Realizando teste de hipótese apropriado para determinar o valor p e, consequentemente, o resultado, sobre se deve ou não rejeitar a hipótese nula de que o número médio de gols marcados em partidas internacionais de futebol feminino é o mesmo que em partidas masculinas.
+This project Perform an appropriate hypothesis test to determine the p-value, and hence result, of whether to reject or fail to reject the null hypothesis that the mean number of goals scored in women's international soccer matches is the same as men's.
 
-## 📊 Dataset
+The objective is to apply Exploratory Data Analysis (EDA) techniques to generate insights from structured sports datasets using Python.
+
+---
+
+## 🎯 Business & Analytical Focus
+
+Although sports data is used, the project simulates real-world analytical scenarios such as:
+
+- Time series trend analysis  
+- Comparative category analysis  
+- Distribution analysis  
+- Data cleaning and preprocessing  
+- Insight generation from structured datasets  
+
+This approach mirrors real business problems involving customer behavior, performance tracking, and KPI analysis.
+
+---
+
+## 📂 Dataset
 
 - `men_results.csv`
 - `women_results.csv`
 
-Os dados incluem informações como:
-- Data da partida
-- Seleção mandante e visitante
-- Placar
-- Torneio
-- Local
+Each dataset includes:
 
-## 🛠️ Tecnologias Utilizadas
+- Match date
+- Home team
+- Away team
+- Goals scored
+- Tournament
+- Match location
+
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib
+- Seaborn
 - Jupyter Notebook
-- pingouin
 
-## 📈 Análises Realizadas
+---
 
-- Comparação entre futebol masculino e feminino
-- Numero de gols
+## 🔎 Key Analyses Performed
 
+### 📈 1. Goal Evolution Over Time
+Analysis of scoring trends across decades.
 
-## ▶️ Como Executar
+### ⚖️ 2. Men's vs Women's Competitive Comparison
+Comparative evaluation of:
+- Average goals per match
+- Match frequency
+- Distribution of results
 
-1. Clone o repositório:
+### 🏆 3. Win/Draw/Loss Distribution
+Identification of dominant teams and match outcome behavior.
+
+### 🌍 4. Tournament Participation Analysis
+Exploration of competition frequency and geographic distribution.
+
+---
+
+## 📊 Example Insights Generated
+
+- Identification of long-term scoring trends.
+- Comparative offensive intensity between datasets.
+- Detection of historically dominant teams.
+- Evolution of participation across tournaments.
+
+---
+
+## ▶️ How to Run
 
 ```bash
-git clone https://github.com/dantasjohn98/Hypotesis-testing-with-Men-s-and-Women-s-Soccer-Matches
-.git
-
-Instale as dependências:
-
+git clone https://github.com/seu-usuario/football-results-analysis.git
+cd football-results-analysis
 pip install pandas matplotlib seaborn jupyter
-
-Execute o notebook:
-
-notebook.ipynb
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
+jupyter notebook
